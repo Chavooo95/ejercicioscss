@@ -1,5 +1,5 @@
-input:in-range{border: 2px solid green;
+input:in-range{border: 2px solid green; background-color: rgb(160, 242, 160);
 
 
 }
-input:out-of-range{border: 2px solid red;}
+input:out-of-range{border: 2px solid red;background-color: rgb(250, 148, 148);}
