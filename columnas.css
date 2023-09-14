@@ -1,0 +1,19 @@
+body{background-color: wheat;}
+h1{color: red;}
+p{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-color: red;
+    /*tambiénsepuedehacerconelcomandocolumn-rule:;
+    solidred*/
+    
+
+}
+::selection{
+    background-color: pink;
+}
+.cambiar_color:hover{
+    color: green;
+
+}
