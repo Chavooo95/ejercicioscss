@@ -1,0 +1,21 @@
+body{
+    background-color: wheat;
+}
+
+.Texto{
+background-color: rgb(179, 173, 173);
+border: solid;
+width: 300px;
+padding: 20px;
+margin: 30px auto;
+font-size: 25px;
+}
+.Texto1{
+    text-align: left;
+}
+.Texto2{
+    text-align: center;
+}
+.Texto3{
+    text-align: right;
+}
