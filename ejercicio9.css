@@ -1,0 +1,44 @@
+.container{
+    background-color: red;
+    border: solid 2px black;
+    width: 100px;
+    height: 100px;
+    margin: 40px;
+}
+
+.box{
+    background-color: greenyellow;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    border: solid 2px black;
+}
+
+.box-1{
+    position: absolute;
+    top: 28px;
+    left: 35px;
+}
+
+.box-2{
+    position: absolute;
+    top: 28px;
+    left: 137px;
+}
+
+.box-3{
+    position: absolute;
+    top: 128px;
+    left: 35px;
+}
+
+.box-4{
+    position: absolute;
+    top: 128px;
+    left: 137px;
+}
