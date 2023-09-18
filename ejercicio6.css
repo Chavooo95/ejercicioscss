@@ -1,0 +1,34 @@
+body{
+    background-color: azure;
+
+}
+h2{
+    margin: auto;
+
+}
+span{
+    background-color: aqua;
+    
+}
+
+.fila{
+    text-align: center;
+    border: solid black;
+}
+
+
+table{
+    margin: auto;
+    background-color: wheat;
+    width: 400px;
+    border: solid 5px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.footer{
+    background-color: aqua;
+}
+td{
+    border-left: 1px solid #000;
+    border-bottom: 2px solid black;
+}
