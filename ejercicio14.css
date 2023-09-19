@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+}
+@media (width<=320px){
+.n1, .n2{
+    width: 100vw;
+    height: 6vh;
+    background-color: orange;
+    margin: 5px;
+}
+
+.a1{
+    width: 100vw;
+    height: 10vh;
+    background-color: yellow;
+    margin: 10px 5px 10px 5px;
+
+}
+
+.b1, .b2, .b3{
+    background-color: blue;
+    height: 18vh;
+    width: 100vw;
+    margin: 5px;
+}
+
+.g1{
+    background-color: rgb(215, 192, 192);
+    height: 4vh;
+    width: 100vw;
+    margin: 10px 5px 5px 5px;
+}
+
+}
+
+@media (320px<width<=768px){
+    .n1, .n2{ 
+        height: 10vh;
+        background-color: orange;
+        margin: 5px 0px;
+
+    }
+
+    .a1{
+    
+        height: 25vh;
+        background-color: yellow;
+        margin: 10px 0px;
+    }
+
+    .b1, .b2, .b3{
+        background-color: blue;
+        height: 10vh;
+        
+        margin: 5px 0px;
+    }
+
+    .g1, .g2, .g3, .g4{
+        background-color: rgb(215, 192, 192);
+        height: 9vh;
+        width: 48vw;
+        margin: 10px ;
+        display: inline-flex;
+        
+        
+
+    }
+}
