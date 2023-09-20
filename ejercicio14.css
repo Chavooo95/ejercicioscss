@@ -65,15 +65,45 @@
         
     }
 }
-@media (width>=1024px){
-    .n1, .n2{
+@media (769px<width<=1025px){
+    .naranja{
         height: 10vh;
-        width: 50vh;
         background-color: orange;
+        width: 49vw;
+        display: inline-block;
 
     }
-
-
-}
+    .n1{
+        display: flex;
+        float: left;
+        margin: 0px 1vh 0px 0vh;
+    }
     
+    .a1{
+        background-color: yellow;
+        height: 40vh;
+        width: 100vw;
+        margin-top: 2vh;
+    }
+    .blue{
+        height: 20vh;
+        width: 31vw;
+        background-color: blue;
+        display: inline-block;
+        margin-top: 2vh;
+    }
+    .b2{
+        margin: 0vh 2vw;
+    }
 
+    .gris{
+        height: 20vh;
+        width: 22vw;
+        background-color:rgb(171, 167, 167);
+        display: inline-block;
+
+    }
+        .g1, .g2, .g3, .g4{
+    margin: 2vh 1vw;
+    } 
+}
