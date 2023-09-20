@@ -19,7 +19,7 @@
 
 .b1, .b2, .b3{
     background-color: blue;
-    height: 18vh;
+    height: 21vh;
     width: 100vw;
     margin: 5px;
 }
@@ -43,26 +43,37 @@
 
     .a1{
     
-        height: 25vh;
+        height: 20vh;
         background-color: yellow;
         margin: 10px 0px;
     }
 
     .b1, .b2, .b3{
         background-color: blue;
-        height: 10vh;
-        
+        height: 10vh;     
         margin: 5px 0px;
     }
-
+    .gris{
+        margin-top: 5px;
+    }
     .g1, .g2, .g3, .g4{
         background-color: rgb(215, 192, 192);
         height: 9vh;
         width: 48vw;
-        margin: 10px ;
         display: inline-flex;
+        margin: 4px;
         
-        
-
     }
 }
+@media (width>=1024px){
+    .n1, .n2{
+        height: 10vh;
+        width: 50vh;
+        background-color: orange;
+
+    }
+
+
+}
+    
+
